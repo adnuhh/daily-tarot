@@ -1,0 +1,54 @@
+/* Default Holos card styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent;
+  font-family: 'Luengo-Bold', sans-serif;
+}
+
+/* We don't need people in Holos to select text in most cases */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version */
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+/* Defines the card shape */
+.card {
+  overflow: hidden;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  margin: auto;
+  height:  1400px;
+  width: 800px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 50px;
+  background-color: white;
+}
+
+div.tarot-card {
+    height: 1250px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.tarot-card img {
+    height: 100%;
+    width: auto;
+}
