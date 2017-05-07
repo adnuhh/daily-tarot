@@ -80,8 +80,8 @@ function pickCard() {
 		["Wands-14.jpg","King of Wands"]
 		];
 	var todaysCard = tarotCards[Math.floor(Math.random()*tarotCards.length)];
-	var card = document.getElementById('card');
-	var cardLabel = document.getElementById('card-label');
+	var card = document.getElementById('pick-card');
+//	var cardLabel = document.getElementById('card-label');
 	card.setAttribute('src', 'images/' + todaysCard[0]);
-	cardLabel.innerHTML = todaysCard[1];
+//	cardLabel.innerHTML = todaysCard[1];
 }
